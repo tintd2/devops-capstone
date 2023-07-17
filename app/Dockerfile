@@ -1,7 +1,5 @@
 FROM python:3.7.3-stretch
 
-LABEL author="huynhlongploc@gmail.com"
-
 # Working Directory
 WORKDIR /app
 

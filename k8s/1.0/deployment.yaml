@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: udacity-capstone-project
-        image: huynhlongploc/udacity-capstone-project:1.0
+        image: dinhtin12/devops-capstone:1.0.0
         ports:
         - containerPort: 80

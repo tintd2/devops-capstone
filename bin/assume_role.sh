@@ -3,7 +3,7 @@ unset http_proxy https_proxy no_proxy
 unset HTTP_PROXY HTTPS_PROXY NO_PROXY
 assumrole=$(aws sts assume-role \
         --duration-seconds 3600 \
-        --role-arn arn:aws:iam::xxxxxx:role/xxxx-stg-usermng-deveks-role-001 \
+        --role-arn arn:aws:iam::460959344212:role/460959344212-stg-usermng-deveks-role-001 \
         --role-session-name aws-infra-cli \
         --endpoint-url https://sts.ap-northeast-1.amazonaws.com)
 AWS_ACCESS_KEY_ID=$(jq -r '.Credentials.AccessKeyId' <<< ${assumrole})
