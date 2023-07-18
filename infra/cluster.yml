@@ -2,7 +2,7 @@ apiVersion: eksctl.io/v1alpha5
 kind: ClusterConfig
 
 metadata:
-  name: k8s-2
+  name: k8s
   region: us-west-2
 
 iam:
